@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem lado a lado</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navegação">
+            <img src="logo.PNG"
+                alt="logo" width="38px" height="38px">
+            <nav class="nav-desktop">
+                
+                <a href="">Livros</a>
+                <a href="tel:+5511940028922">Contato</a>
+                <a href="">Sobre Nós</a>
+                <a href="./cadastro.html">Cadastro</a>
+            </nav>
+            <div class="pesquisa">
+                <input class="pesquisa" type="text" placeholder="Pesquisa">
+                <button >
+                    <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-5/24/search-alt-256.png"
+                        alt="Pesquisa" width="16px" height="16px">
+                </button>
+            </div>
+            <div class="usuario">
+                <button>
+                    <a href="./login.html">
+                        <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-64.png" width="16px"
+                            height="16px" alt="usuario">
+                        <span>Entrar</span>
+                    </a>
+                </button>
+                <button onclick="location.href='./cadastro.html'">
+                    <img src="https://cdn3.iconfinder.com/data/icons/miscellaneous-80/60/add_user-256.png" width="16px"
+                        height="16px" alt="cadastro">
+                    Cadastro
+                </button>
+            </div>
+            <!-- Criando um checkbox oculto para o menu hamburguer-->
+            <!-- ID é dar um nome ao elemento-->
+            <input type="checkbox" id="menu-escondido" class="menu-escondido">
+            <!--Desenho o hamburguer -->
+            <label for="menu-escondido" class="hamburguer">
+                <span class="linha linha1"></span>
+                <span class="linha linha2"></span>
+                <span class="linha linha3"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="cadastro.html">Area do cliente</a></li>
+    <li><a href="index.html">Blog</a></li>
+    <li><a href="whatsapp.jpg">Whatsapp</a></li>
+    <li><a href="instagram.jpg">Instagram</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="carrossel">
+            <div class="imagem-fundo"></div>
+            <button class="seta esquerda">
+                <img width="32px" src="https://cdn3.iconfinder.com/data/icons/neutro-interface/32/forward-512.png" alt="esquerda" >
+            </button>
+            <h1>Casamentos</h1>
+            <button class="seta">
+                <img width="32px" src="https://cdn3.iconfinder.com/data/icons/neutro-interface/32/forward-512.png" alt="direita" >
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="catalogo-titulo">Eventos</h1>
+
+        <div class="catalogo-container">
+            
+            <aside class="filtro-sidebar">
+                <h2>Filtre por Categoria</h2>
+                
+                <div class="filtro-grupo">
+                    <h3>Eventos</h3>
+                    <label><input type="checkbox" name="genero" value="Cerimônia" checked>Cerimônia</label>
+                    <label><input type="checkbox" name="genero" value="Decoração"> Decoração</label>
+                    <label><input type="checkbox" name="genero" value="Festa"> Festa</label>
+                    <label><input type="checkbox" name="genero" value="Planejamento"> Planejamento</label>
+                    <label><input type="checkbox" name="genero" value="Vestidos"> Vestidos</label>
+                        
+                </div>
+                
+                <button class="aplicar-filtro">Aplicar Filtros</button>
+                        <section class="catalogo-grid">
+                <div class="contendo">
+                    
+                    <div class="card">
+                                                                       
+                        <a href="cerimonia1.jpg">Cerimônia</a>
+                        <a href="cerimonia.jpg">Cerimônia1</a>
+                        <a href="decoracao.jpg">Decoracao</a>
+                        <a href="decoracao1.jpg">Decoracao1</a>
+                        <a href="festa.jpg">Festa</a>
+                        <a href="festa1.jpg">Festa1</a>
+                        <a href="planejamento.jpg">Planejamento</a>
+                        <a href="planejamento1.jpg">Planejamento1</a>
+                        <a href="vestidos.jpg">Vestidos</a>
+                        <a href="vestidos1.jpg">Vestidos1</a>
+                     
+        </div>  
+               
+                   
+</body>
+
+</html>
